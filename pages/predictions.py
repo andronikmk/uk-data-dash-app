@@ -12,8 +12,6 @@ import pandas as pd
 # Imports from this application
 from app import app
 
-df = pd.read_csv('data/uk_data_v7.csv', sep=';')
-
 pipeline = load('assets/pipeline.joblib')
 print(type(pipeline))
 print('Hello, World')
