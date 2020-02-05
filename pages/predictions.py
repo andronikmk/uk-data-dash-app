@@ -12,6 +12,8 @@ import pandas as pd
 # Imports from this application
 from app import app
 
+df = pd.read_csv('data/uk_data_v7.csv', sep=';')
+
 pipeline = load('assets/pipeline.joblib')
 print(type(pipeline))
 print('Hello, World')
@@ -50,7 +52,7 @@ column1 = dbc.Col(
         #         {'label': 'Europe', 'value': 'Europe'}, 
         #         {'label': 'Oceania', 'value': 'Oceania'}, 
         #     ], 
-        #     value = 'Africa', 
+        #     value = 'Americas', 
         #     className='mb-5', 
         # ), 
 
