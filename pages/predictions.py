@@ -68,7 +68,7 @@ column2 = dbc.Col(
 layout = dbc.Row([column1, column2])
 
 @app.callback(
-    Output('prediction-content', 'children'),
+    Output('prediction-content', 'value'),
     [Input('Year', 'value'), Input('Annual_inflation_rate', 'value')],
 )
 def predict(Year, Annual_inflation_rate):
