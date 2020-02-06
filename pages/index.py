@@ -33,7 +33,7 @@ column1 = dbc.Col(
     md=4,
 )
 
-df1 = pd.read_csv('https://raw.githubusercontent.com/andronikmk/uk-data-dash-app/master/data/uk_pop_gdp_v2.csv')
+df1 = pd.read_csv('data/uk_pop_gdp_v2.csv')
 
 # plot 1
 fig = go.Figure()
