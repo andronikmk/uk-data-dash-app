@@ -16,10 +16,10 @@ navbar = dbc.NavbarSimple(
     brand='Real Consumption Earnings, England and Great Britain 1270-1870',
     brand_href='/', 
     children=[
-        dbc.NavItem(dcc.Link('Predictions', href='/predictions', className='nav-link')), 
-        dbc.NavItem(dcc.Link('Agricultural Production', href='/insights', className='nav-link')), 
-        dbc.NavItem(dcc.Link('Industrial Production', href='/process', className='nav-link')),
-        dbc.NavItem(dcc.Link('Correlation', href='/evaluation', className='nav-link')) 
+        dbc.NavItem(dcc.Link('Agriculture', href='/insights', className='nav-link')), 
+        dbc.NavItem(dcc.Link('Industry', href='/process', className='nav-link')),
+        dbc.NavItem(dcc.Link('Predictions', href='/predictions', className='nav-link')),
+        dbc.NavItem(dcc.Link('Correlation', href='/evaluation', className='nav-link')),
     ],
     sticky='top',
     color='light', 
@@ -38,11 +38,10 @@ footer = dbc.Container(
         dbc.Col(
             html.P(
                 [
-                    html.Span('Your Name', className='mr-2'), 
-                    html.A(html.I(className='fas fa-envelope-square mr-1'), href='mailto:<you>@<provider>.com'), 
-                    html.A(html.I(className='fab fa-github-square mr-1'), href='https://github.com/<you>/<repo>'), 
-                    html.A(html.I(className='fab fa-linkedin mr-1'), href='https://www.linkedin.com/in/<you>/'), 
-                    html.A(html.I(className='fab fa-twitter-square mr-1'), href='https://twitter.com/<you>'), 
+                    html.Span('Andronik Mkrtychev', className='mr-2'), 
+                    html.A(html.I(className='fas fa-envelope-square mr-1'), href='mailto:andronikmk@gmail.com'), 
+                    html.A(html.I(className='fab fa-github-square mr-1'), href='https://github.com/andronikmk/uk-data-dash-app'), 
+                    html.A(html.I(className='fab fa-linkedin mr-1'), href='https://www.linkedin.com/in/andronik-mkrtychev/'), 
                 ], 
                 className='lead'
             )

@@ -18,13 +18,11 @@ column1 = dbc.Col(
         dcc.Markdown(
             """
         
-            ## Your Value Proposition
+            ## Machine Learning on Economic Data
 
-            Emphasize how the app will benefit users. Don't emphasize the underlying technology.
+            ✅ This is an app that adapts to uses economic data 
+            to predict real consumption earnings growth in England and Great Britain, 1270 - 1870.
 
-            ✅ RUN is a running app that adapts to your fitness levels and designs personalized workouts to help you improve your running.
-
-            ❌ RUN is the only intelligent running app that uses sophisticated deep neural net machine learning to make your run smarter because we believe in ML driven workouts.
 
             """
         ),
