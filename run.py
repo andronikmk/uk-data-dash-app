@@ -11,13 +11,13 @@ from pages import index, predictions, insights, process, evaluation
 
 # Navbar docs: https://dash-bootstrap-components.opensource.faculty.ai/l/components/navbar
 navbar = dbc.NavbarSimple(
-    brand='YOUR APP NAME',
+    brand='Real Consumption Earnings, England and Great Britain 1270-1870',
     brand_href='/', 
     children=[
         dbc.NavItem(dcc.Link('Predictions', href='/predictions', className='nav-link')), 
-        dbc.NavItem(dcc.Link('Insights', href='/insights', className='nav-link')), 
-        dbc.NavItem(dcc.Link('Process', href='/process', className='nav-link')),
-        dbc.NavItem(dcc.Link('Evaluation', href='/evaluation', className='nav-link')) 
+        dbc.NavItem(dcc.Link('Agricultural Production', href='/insights', className='nav-link')), 
+        dbc.NavItem(dcc.Link('Industrial Production', href='/process', className='nav-link')),
+        dbc.NavItem(dcc.Link('Correlation', href='/evaluation', className='nav-link')) 
     ],
     sticky='top',
     color='light', 
