@@ -20,7 +20,7 @@ column1 = dbc.Col(
         
             ## Machine Learning on Economic Data
 
-            ✅ This is an app that adapts to uses economic data 
+            ✅ This is an app that uses economic data 
             to predict real consumption earnings growth in England and Great Britain, 1270 - 1870.
 
 
