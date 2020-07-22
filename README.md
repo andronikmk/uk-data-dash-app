@@ -11,8 +11,11 @@ Built on top of Plotly.js, React and Flask, Dash ties modern UI elements like dr
 
 - [Dash Docs on Heroku](https://dash-docs.herokuapp.com/) (for corporate network that cannot access plotly.com)
 
+# Introduction
+The economic development of Europe proceeded political consolidation and differentiation. As large sovereignties emerged and state regulation superseded guild and municipal regulation, economic development could extend freely over a wider territories. Between 1270 and 1870 England and Great Britain slowly progressed from the periphery of the European economy to centre-stage of an integrated global economy. In the process Britain escaped the Malthusian trap and by the eighteenth century had successfully reconciled a rising population with a rising standard of living.
 
-# Installation
+
+## Installation
 
 ### From source
 
