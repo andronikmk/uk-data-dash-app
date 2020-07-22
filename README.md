@@ -42,3 +42,14 @@ gunicorn run:server
 [2020-07-22 16:34:33 -0400] [5444] [INFO] Booting worker with pid: 5444
 ```
 
+### Plotly Dash App
+
+![img6](img/image6.png)
+
+![img2](img/image2.png)
+
+![img3](img/image3.png)
+
+![img4](img/image4.png)
+
+![img5](img/image5.png)
